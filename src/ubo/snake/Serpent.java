@@ -1,5 +1,6 @@
 package ubo.snake;
-//Modifier par BIANE
+//Modifier par BIANE 
+//Modifier par Ousssama
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
