@@ -4,7 +4,16 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.util.LinkedList;
-// Classe Serpent 
+/** Classe Serpent 
+ * 
+ * Gerer les directions du serpent
+ * 
+ * Vérifier si le serpent est mort
+ * 
+ * Tourner le Serpent
+ * 
+ * 
+ * */ 
 
 public class Serpent {
 
