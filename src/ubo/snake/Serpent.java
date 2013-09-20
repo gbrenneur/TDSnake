@@ -4,6 +4,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.util.LinkedList;
+// Classe Serpent 
 
 public class Serpent {
 
@@ -66,7 +67,7 @@ public class Serpent {
           // supprime le dernier élément de la liste
           this.list.removeLast();
     }
-      
+      // Retourner la case suivante
       private Case getNextcase() {
           Case tete = this.list.getFirst();
           switch (this.direction) {
@@ -81,7 +82,7 @@ public class Serpent {
           }
           return null;
     }
-      
+      // Tester si le serpent peut avancer ou non
       private boolean peutAvancer() {
     	  Case nextCase = getNextcase();
           return nextCase.estValide() && !this.list.contains(nextCase);
@@ -94,7 +95,7 @@ public class Serpent {
       private boolean peutManger(Grenouille grenouille) {
           return grenouille.equals(getNextcase());
     }
-      
+      // Tester si le serpent peut manger ou non 
       private void mange() {
           // ajoute en tête de liste la case sur laquelle
           // le serpent doit se déplacer
