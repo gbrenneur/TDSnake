@@ -1,4 +1,9 @@
 package ubo.snake;
+// modifié par Hasnae BEN AICHA
+
+/**
+ * Les indices du jeux
+ */
 
 public class Case implements Constantes {
 
