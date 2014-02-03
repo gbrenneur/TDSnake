@@ -44,11 +44,11 @@ public class Case implements Constantes {
       public int getY() {
             return this.yIndice * CASE_EN_PIXELS;
       }
-
+      // indicateur largeur
       public int getLargeur() {
             return CASE_EN_PIXELS;
       }
-
+      // Indicateur hauteur
       public int getHauteur() {
             return CASE_EN_PIXELS;
       }
@@ -60,6 +60,8 @@ public class Case implements Constantes {
       }
       
       @Override
+      
+      // classe equals
       public boolean equals(Object obj) {
             if (obj instanceof Case) {
                   Case box = (Case) obj;
